@@ -1,0 +1,32 @@
+.main-header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	background-color: #39186d;
+	justify-content: center;
+}
+
+.main-header .contaiener-logo {
+	width: 250px;
+	height: 100px;
+}
+
+.main-header .container-category ul {
+	padding-left: 100px;
+	margin: 0px;
+	list-style: none;
+}
+
+.main-header .container-category ul li {
+	display: inline;
+	padding-left: 15px;
+}
+
+.main-header .container-category ul li a {
+	padding: 40px 54px;
+	display: inline-block;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	font-family: "Rubik", sans-serif;
+}
