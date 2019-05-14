@@ -1,21 +1,22 @@
 import React from "react";
 import Logo from "../../assets/logo.svg";
 import "./style.css";
-
-// import { Container } from './styles';
+import { Link } from "react-router-dom";
 
 const HeaderBlog = props => {
 	return (
 		<div className="main-header">
-			<div className="contaiener-logo">
-				<a href="Home">
-					<img src={Logo} alt="Logo da Science Comics" />
-				</a>
-			</div>
+			<Link to={"/"}>
+				<div className="contaiener-logo">
+					<a>
+						<img src={Logo} alt="Logo da Science Comics" />
+					</a>
+				</div>
+			</Link>
 			<div className="container-category">
 				<ul>
 					<li>
-						<a href="artigos">ARTIGOS</a>
+						<a>ARTIGOS</a>
 					</li>
 					<li>
 						<a href="webcomics">WEBCOMICS</a>
